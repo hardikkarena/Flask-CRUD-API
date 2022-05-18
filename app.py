@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import json
 from models import app,db,User,Post,user_schema,users_schema,post_schema,posts_schema
-
+# print("sdfs")
 #Inedx Or Landing Page
 @app.route("/",methods=['GET'])
 def index():
